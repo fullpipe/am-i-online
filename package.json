@@ -1,5 +1,5 @@
 {
-  "name": "ts-package-boilerplate",
+  "name": "am-i-online",
   "version": "1.0.2",
   "description": "",
   "main": "build/index.js",
@@ -19,15 +19,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fullpipe/ts-package-boilerplate.git"
+    "url": "git+https://github.com/fullpipe/am-i-online.git"
   },
   "keywords": [],
   "author": "Eugene Bravov <eugene.bravov@gmail.com> (https://github.com/fullpipe)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fullpipe/ts-package-boilerplate/issues"
+    "url": "https://github.com/fullpipe/am-i-online/issues"
   },
-  "homepage": "https://github.com/fullpipe/ts-package-boilerplate#readme",
+  "homepage": "https://github.com/fullpipe/am-i-online#readme",
   "devDependencies": {
     "@types/chai": "^4.2.16",
     "@types/mocha": "^8.2.2",
