@@ -6,7 +6,7 @@
   "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "env TS_NODE_COMPILER_OPTIONS='{\"rootDir\": \".\"}' mocha -r ts-node/register 'tests/**/*.ts'",
+    "test": "npx jest",
     "lint": "gts lint",
     "clean": "gts clean",
     "fix": "gts fix",
@@ -29,14 +29,15 @@
   },
   "homepage": "https://github.com/fullpipe/am-i-online#readme",
   "devDependencies": {
-    "@types/chai": "^4.2.16",
-    "@types/mocha": "^8.2.2",
+    "@types/jest": "^26.0.22",
     "@types/node": "^14.11.2",
     "@types/sinon": "^10.0.0",
-    "chai": "^4.3.4",
     "gts": "^3.1.0",
-    "mocha": "^8.3.2",
+    "jest": "^26.6.3",
+    "jest-puppeteer": "^5.0.2",
+    "puppeteer-core": "^9.0.0",
     "sinon": "^10.0.0",
+    "ts-jest": "^26.5.5",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
   },
